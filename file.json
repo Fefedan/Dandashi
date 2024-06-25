@@ -1,0 +1,156 @@
+[
+    {
+      "City": "دمشق",
+      "Details": "شقة غرفة وصالة مساحة 70م",
+      "Rmonthly": "500000 ل.س",
+      "Area": "ركن الدين",
+      "Garage": "متوفر",
+      "Floor": "3",
+      "Owner": "طابو",
+      "Balcon": "مساحة 12متر",
+      "Furnished": "نعم",
+      "img1":"./images/view.jpg",
+      "img2":"./images/bath3.jpg",
+      "img3":"./images/bed2.jpg"
+    }
+    ,
+    {
+      "City": "حمص",
+      "Details": "دكان مساحة  50م",
+      "Rmonthly": "250000 ل.س",
+      "Area": "الغوطة",
+      "Garage": "غير متوفر",
+      "Floor": "أرضي",
+      "Owner": "طابو",
+      "Balcon": "غير متوفر",
+      "Furnished": "لا",
+      "img1":"./images/shop.jpg",
+      "img2":"./images/shop1.jpg",
+      "img3":"./images/shop2.jpg"
+    }
+    ,
+    {
+      "City": "حلب",
+      "Details": "شقة فارغة غرفتين وصالة ",
+      "Rmonthly": "600000 ل.س",
+      "Area": "سيف الدولة ",
+      "Garage": "غير متوفر",
+      "Floor": "4",
+      "Owner": "طابو",
+      "Balcon": "مساحة 20",
+      "Furnished": "لا",
+      "img1":"./images/salahkit.jpg",
+      "img2":"./images/bed3.jpg",
+      "img3":"./images/bed4.jpg"
+    }
+    ,
+    {
+      "City": "دمشق",
+      "Details": "شقة 3غرف ومطبخ",
+      "Rmonthly": "1000000 ل.س",
+      "Area": "المالكي",
+      "Garage": "متوفر",
+      "Floor": "1",
+      "Owner": "طابو",
+      "Balcon": "مساحة 20م",
+      "Furnished": "نعم",
+      "img1":"./images/dinnerroom.jpg",
+      "img2":"./images/bed3.jpg",
+      "img4":"./images/kit1.jpg"
+    }
+    ,
+    {
+      "City": "حمص",
+      "Details": "شقة غرفة ومطبخ وصالة",
+      "Rmonthly": "500000 ل.س",
+      "Area": "الوعر",
+      "Garage": "متوفر",
+      "Floor": "2",
+      "Owner": "طابو",
+      "Balcon": "مساحة 50م",
+      "Furnished": "نعم",
+      "img1":"./images/bigroom.jpg",
+      "img2":"./images/kit2.jpg",
+      "img3":"./images/bed4.jpg"
+    }
+    ,
+    {
+      "City": "دمشق",
+      "Details":"سوبرماركت",
+      "Rmonthly": "1000000 ل.س",
+      "Area": "ركن الدين",
+      "Garage": "متوفر",
+      "Floor": "none",
+      "Owner": "طابو",
+      "Balcon": "غير متوفر",
+      "Furnished": "لا",
+      "img1":"./images/supermarket.jpg",
+      "img2":"./images/supermarket1.jpg",
+      "img3":"./images/supermarket3.jpg"
+    }
+    ,
+    {
+      "City": "حمص",
+      "Details": "شقة غرفتين ومطبخ وحمام",
+      "Rmonthly": "500000 ل.س",
+      "Area": "طريق الشام",
+      "Garage": "غير متوفر",
+      "Floor": "2",
+      "Owner": "طابو",
+      "Balcon": "مساحة 15 م",
+      "Furnished": "نعم",
+      "img1":"./images/kit3.jpg",
+      "img2":"./images/sala1.jpg",
+      "img3":"./images/bed4.jpg"
+    }
+    ,
+    {
+  
+      "City": "دمشق",
+      "Details": "شقة 2غرفة ومطبخ ",
+      "Rmonthly": "700000 ل.س",
+      "Area": "ركن الدين",
+      "Garage": "متوفر",
+      "Floor": "1",
+      "Owner": "طابو",
+      "Balcon": "مساحة 17",
+      "Furnished": "نعم",
+      "img1":"./images/bath4.jpg",
+      "img2":"./images/bed1.jpg",
+      "img3":"./images/view2.jpg",
+      "img4":"./images/kit3.jpg"
+    }
+    ,
+    {
+      "City": "حلب",
+      "Details": "شقة اربع غرف",
+      "Rmonthly": "850000 ل.س",
+      "Area": "سيف الدولة",
+      "Garage": "غير متوفر",
+      "Floor": "6",
+      "Owner": "طابو",
+      "Balcon": "غير متوفر",
+      "Furnished": "نعم",
+      "img1":"./images/kit4.jpg",
+      "img2":"./images/bed1.jpg",
+      "img3":"./images/bed2.jpg",
+      "img4":"./images/bed4.jpg"
+    }
+    ,
+    {
+  
+      "City": "حمص",
+      "Details": "شقة غرفة وصالة ومطبخ",
+      "Rmonthly": "450000 ل.س",
+      "Area": "ركن الدين",
+      "Garage": "متوفر",
+      "Floor": "7",
+      "Owner": "طابو",
+      "Balcon": "مساحة 12متر",
+      "Furnished": "نعم",
+      "img1":"./images/bed4.jpg",
+      "img2":"./images/kit4.jpg",
+      "img3":"./images/bath2.jpg"
+    }
+  
+  ]

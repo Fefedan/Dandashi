@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <title>شركة تسويق عقاري</title>
+    <link rel="stylesheet" href="./Style.css"/>
+</head>
+<body>
+    
+    <!--حاوية لجميع عناصر البرنامج-->
+    <section class="reel-table">
+
+        <div class="first">
+            <!--مسطرة افقية-->
+            <hr color="red" size="15" />
+            <!--نزول سطر-->
+            <br />
+              <!--التبديل بين صفحات الموقع-->
+            <h3>
+                <a href="index.html">الصفحة الرئيسية</a> 
+                <a href="properties.html">صفحة العقارات</a>
+                <a href="aboutUs.html">من نحن</a>
+                
+            </h3>
+
+            <!--انشاء الجدول-->
+            <table border="1" cellspacing="15" cellpadding="10">
+                <!--عنوان الجدول-->
+                <caption> جدول العقارات</caption>
+                <thead>
+                  <!--السطر الاول-->
+                 <tr>
+                    <th> المدينة</th>
+                    <th>التفـاصيل</th>
+                    <th> الإيجــار الشهري </th>
+                    <th> اظهـار التفــاصيل </th>
+                    <th> اختيار</th>
+                 </tr>
+
+                </thead>
+                    <tbody id="myflats"></tbody>
+            </table>
+                    <br/>
+                    <br/>
+                <!---انشاء زر متابعة-->
+                <button id="continue" onclick="openForm()">متـــابعـة</button>
+                <br/>
+                     <!---انشاء النموذج-->
+                     <fieldset><!--وضع النموذج داخل مربع-->
+                        <div id="myForm" style="display: none;" >
+                           <form action="" method="" onsubmit="validateForm()">
+                                <h4>نموذج الطلب</h4><br/>
+                                <br/>
+                                <label for="fullname">الاسم الكامل:</label>
+                                <input type="text" id=" fullname" name="fullname" placeholder=" اكتب اسمك الكامل"  pattern="[ء-ي ]+">
+                                <label for="NationalID">الرقم الوطنــي:</label>
+                                <input type="text" id="NationalID" name="NationalID" maxlength="14" placeholder=" اكتب رقمك الوطني(اجباري)" pattern="[0-9]+" required>
+                                <label for="birthDate">تاريخ الولادة:</label>
+                                <input type="date" id="birthDate" name="birthDate">
+                                <br/>
+                                <br/>
+                                <label for="mobileNumber">رقم الموبايل:</label>
+                                <input type="text" id="mobileNumber" name="mobileNumber" placeholder="أدخل رقمك" pattern="(09[0-9]{8}|095[0-9]{7})">
+                                <label for="mail ">البريد الالكتروني:</label>
+                                <input type="email"  id="mail" name="mail" placeholder="اكتب ايميلك">
+                                <br/>
+                                <br/>
+                                <label for="captcha ">رمز التحقق:</label>
+                                <input type="text"  id="captcha" name="captcha" placeholder="ادخل رمز التحقق(اجباري)">
+                                <br/>
+                                <button type="button" onclick="changeCaptcha()">اضغط الرمز</button><br/> <img id="captchaImage" src="" alt="رمز التحقق">
+                                <button type="button" onclick="changeCaptcha()">تغيير الرمز</button><br/>
+                                <br/>
+                                <button type="button" onclick="showMessage()">ارسال الطلب</button>
+                            </fieldset>
+                                <br/>
+                                <br/>
+                                <br/>
+                            </form>
+                        </div>         
+        </div> 
+
+    
+    </section>
+
+    <script src="./myFunctions.js"></script>
+    <script>
+        function showMessage() {
+            alert('شكراً على اختيارك ان ل العقار الذي الخترته هي:');
+        }
+        </script>
+</body>
+</html>
